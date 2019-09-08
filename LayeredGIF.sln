@@ -7,6 +7,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LayeredGIF", "LayeredGIF\La
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E9D37F3-73F4-4DD4-95A0-8F78378EB087}"
 	ProjectSection(SolutionItems) = preProject
+		Bitmap1.bmp = Bitmap1.bmp
 		..\..\..\Pictures\My Drawings\Pixel Art\sample-base.png = ..\..\..\Pictures\My Drawings\Pixel Art\sample-base.png
 		..\..\..\Pictures\My Drawings\Pixel Art\sample-fog.png = ..\..\..\Pictures\My Drawings\Pixel Art\sample-fog.png
 		..\..\..\Pictures\My Drawings\Pixel Art\sample-grass.png = ..\..\..\Pictures\My Drawings\Pixel Art\sample-grass.png
