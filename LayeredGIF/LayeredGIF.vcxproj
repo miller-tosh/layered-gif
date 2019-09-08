@@ -153,14 +153,6 @@
   <ItemGroup>
     <ClCompile Include="LayeredGIF.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\..\Pictures\My Drawings\Pixel Art\sample-base.png" />
-    <Image Include="..\..\..\..\Pictures\My Drawings\Pixel Art\sample-fog.png" />
-    <Image Include="..\..\..\..\Pictures\My Drawings\Pixel Art\sample-grass.png" />
-    <Image Include="..\..\..\..\Pictures\My Drawings\Pixel Art\sample-hills.png" />
-    <Image Include="..\..\..\..\Pictures\My Drawings\Pixel Art\sample-mountains.png" />
-    <Image Include="..\..\..\..\Pictures\My Drawings\Pixel Art\sample-trees.png" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
