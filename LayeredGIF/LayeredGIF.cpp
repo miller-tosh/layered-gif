@@ -3,18 +3,26 @@ Author: Tosh Miller (prophecycat)
 */
 
 #include <iostream>
-#include <Windows.h>
-#include <tchar.h>
+#include <SDL.h>
 
 using namespace std;
 
-const wchar_t CLASS_NAME[] = L"Window Class";
-WNDCLASS wc;
-
 void createWindow()
 {
+	SDL_Init(SDL_INIT_VIDEO);
+
+	SDL_Window* window = SDL_CreateWindow
+	("Layered GIF", // window's title
+		10, 25, // coordinates on the screen, in pixels, of the window's upper left corner
+		640, 480, // window's length and height in pixels  
+		SDL_WINDOW_OPENGL);
+
+	SDL_DestroyWindow(window);
+	SDL_Quit();
 }
 
-int main()
+int main(int argc, char* argv[])
 {
+	createWindow();
+	return 0;
 }
