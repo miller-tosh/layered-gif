@@ -3,7 +3,8 @@ Author: Tosh Miller (prophecycat)
 */
 
 #include <iostream>
-#include <SDL2/SDL.h>
+//#include <SDL2/SDL.h>		// To run on Mac
+#include "SDL.h"			// To run on Windows
 
 
 /*
