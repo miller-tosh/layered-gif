@@ -38,6 +38,8 @@ void createWindow()
 	SDL_Surface* a = graphics.loadImage(b);
 	SDL_Texture* c = graphics.loadTexture(a);
 
+	graphics.changeWinSize(a);
+
 	graphics.renderCopy(c);
 	graphics.flip();
 

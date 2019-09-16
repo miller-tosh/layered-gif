@@ -34,6 +34,12 @@ public:
 	// Return private SDL_Renderer pointer
 	SDL_Renderer* getRenderer();
 
+	// Return private SDL_Window pointer
+	SDL_Window* getWindow();
+
+	// Updates size of window based on dimensions of passed SDL_Surface
+	void changeWinSize(SDL_Surface* surface);
+
 private:
 	SDL_Window* _window;
 	SDL_Renderer* _renderer;

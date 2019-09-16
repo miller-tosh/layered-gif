@@ -55,3 +55,18 @@ SDL_Renderer* Graphics::getRenderer()
 {
 	return this->_renderer;
 }
+
+SDL_Window* Graphics::getWindow()
+{
+	return this->_window;
+}
+
+void  Graphics::changeWinSize(SDL_Surface* surface)
+{
+	int w = surface->w;
+	int h = surface->h;
+	SDL_Window* win = this->_window;
+
+	SDL_SetWindowSize(win, w, h);
+}
+
