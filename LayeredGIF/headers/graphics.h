@@ -37,8 +37,8 @@ public:
 	// Return private SDL_Window pointer
 	SDL_Window* getWindow();
 
-	// Updates size of window based on dimensions of passed SDL_Surface
-	void changeWinSize(SDL_Surface* surface);
+	// Updates size of window based on dimensions of passed SDL_Surface, with multiplier (default 1x)
+	void changeWinSize(SDL_Surface* surface, int multi = 1);
 
 private:
 	SDL_Window* _window;

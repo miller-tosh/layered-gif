@@ -61,12 +61,12 @@ SDL_Window* Graphics::getWindow()
 	return this->_window;
 }
 
-void  Graphics::changeWinSize(SDL_Surface* surface)
+void  Graphics::changeWinSize(SDL_Surface* surface, int multi)
 {
 	int w = surface->w;
 	int h = surface->h;
 	SDL_Window* win = this->_window;
 
-	SDL_SetWindowSize(win, w, h);
+	SDL_SetWindowSize(win, (w * multi), (h * multi));
 }
 
